@@ -1,0 +1,1 @@
+# slave_role_for_mnkc_on_aws
