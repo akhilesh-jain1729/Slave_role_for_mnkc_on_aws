@@ -34,18 +34,18 @@ Dependencies
 ------------
 
 Generally, no dependency is there internally, but it is preferrable to use my Master role for configuring Master first and then by adding this role also in the same play to a SLave host will be much preferrable to do. Otherwise If you have all the Requirements fullfilled, then just run this role in a play.
+
+
 Example Playbook
 ----------------
 
-Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
-
-    - hosts: tag_Name_Slaves
-      ignore_errors: yes     
-      become: yes 
-      vars_files: 
-         - vars.yml
-      roles:
-         - slave
+- hosts: tag_Name_Slaves
+  ignore_errors: yes     
+  become: yes 
+  vars_files: 
+       - vars.yml
+   roles:
+       - slave
 
 License
 -------
@@ -59,3 +59,4 @@ I am Akhilesh Jain, who has created this role. To understand more about this rol
 
 LinkedIN Profile: https://www.linkedin.com/in/akjain9221/
 Medium Profile: https://akhileshjain9221.medium.com/
+Complete Project URL on GIthub: https://github.com/akhilesh-jain1729/Arth_Tasks/tree/main/Arth_Task19
