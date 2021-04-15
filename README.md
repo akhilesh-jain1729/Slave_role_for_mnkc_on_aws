@@ -50,7 +50,7 @@ Example Playbook
 License
 -------
 
-BSD
+MIT
 
 Author Information
 ------------------
@@ -60,3 +60,7 @@ I am Akhilesh Jain, who has created this role. To understand more about this rol
 LinkedIN Profile: https://www.linkedin.com/in/akjain9221/
 Medium Profile: https://akhileshjain9221.medium.com/
 Complete Project URL on GIthub: https://github.com/akhilesh-jain1729/Arth_Tasks/tree/main/Arth_Task19
+
+--> To use this role efficiently, use my master role for this, take the help of my blog, Follow the Steps and run playbooks accordingly
+1) ansible-playbook configure-cluster.yml
+2) ansible-playbook slave_token.yml
