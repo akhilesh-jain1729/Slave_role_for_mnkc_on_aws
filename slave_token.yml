@@ -3,5 +3,5 @@
   vars_files:
       - vars.yml
   tasks:
-      -  name: "Running Master's token to Slave Node"
-         command: "{{ token }}"
+      - name: "Running Master's token to Slave Node"
+        command: "{{ token }}"
