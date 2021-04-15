@@ -80,6 +80,7 @@
 - name: Doing swap off
   command: "swap off -a"
   when: ansible_distribution=='RedHat'
+  changed_when: false
 
 - name: "Copying k8s.conf file"
   copy: 
@@ -89,3 +90,4 @@
 
 - name: "running sysctl command"
   command: "sysctl --system"
+  changed_when: false
